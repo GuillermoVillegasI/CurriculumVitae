@@ -3,12 +3,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background: black;
+  font-family: "Fredoka", sans-serif;
+  background: transparent;
 }
 header {
   justify-content: center;
   align-items: center;
+}
+.navbar {
+  background: rgb(8, 8, 36);
+}
+.nav-link {
+  padding: 0 !important;
+  color: white !important;
 }
 
 ul {
@@ -19,6 +26,10 @@ ul li {
   margin-top: 3px;
   position: relative;
   list-style: none;
+  display: inline-block !important;
+}
+li a {
+  display: inline-block !important;
 }
 ul li a {
   position: relative;
@@ -44,7 +55,7 @@ ul li a:hover::before {
   filter: drop-shadow(0 0 20px var(--clr));
 }
 section {
-  color: brown;
+  color: white;
   position: relative;
   padding: 100px;
   padding-top: 300px;
@@ -53,7 +64,9 @@ section {
   width: 100%;
 }
 #Home {
-  background: white;
+  background: rgb(65, 65, 65);
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 /*.nav-link {
