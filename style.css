@@ -15,7 +15,8 @@ header {
 }
 .nav-link {
   padding: 0 !important;
-  color: white !important;
+  color: coral !important;
+  width: auto;
 }
 
 ul {
@@ -39,7 +40,10 @@ ul li a {
   letter-spacing: 3px;
   text-transform: uppercase;
   color: transparent;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px coral;
+}
+a {
+  color: coral !important;
 }
 ul li a::before {
   content: attr(data-text);
@@ -54,19 +58,42 @@ ul li a:hover::before {
   width: 100%;
   filter: drop-shadow(0 0 20px var(--clr));
 }
+
 section {
   color: white;
   position: relative;
-  padding: 100px;
-  padding-top: 300px;
   box-sizing: border-box;
   transition: 0.5s;
+  height: 100%;
   width: 100%;
 }
+
+h1 {
+  font-size: 60px !important;
+}
 #Home {
+  padding-top: 300px !important;
   background: rgb(65, 65, 65);
-  letter-spacing: 2px;
+  height: 700px;
+  display: inline-block;
   text-align: center;
+  font-size: 30px;
+}
+
+#Sobremi {
+  padding-top: 100px !important;
+  background: rgb(114, 114, 114);
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+}
+.list-group {
+  margin: 50px 50px;
+}
+.list-group-item {
+  background-color: rgb(8, 8, 36) !important;
+  color: white !important;
 }
 
 /*.nav-link {
