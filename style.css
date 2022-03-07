@@ -15,7 +15,7 @@ header {
 }
 .nav-link {
   padding: 0 !important;
-  color: coral !important;
+  color: white !important;
   width: auto;
 }
 
@@ -40,10 +40,10 @@ ul li a {
   letter-spacing: 3px;
   text-transform: uppercase;
   color: transparent;
-  -webkit-text-stroke: 1px coral;
+  -webkit-text-stroke: 1px white;
 }
 a {
-  color: coral !important;
+  color: white !important;
 }
 ul li a::before {
   content: attr(data-text);
