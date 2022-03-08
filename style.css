@@ -95,6 +95,9 @@ h1 {
   background-color: rgb(8, 8, 36) !important;
   color: white !important;
 }
+.title {
+  text-decoration: underline;
+}
 
 /*.nav-link {
   font-weight: 900 !important;
