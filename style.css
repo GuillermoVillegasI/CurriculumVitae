@@ -1,9 +1,16 @@
-/* &nbsp */
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(8, 8, 36); /* &nbsp */
+  position: relative !important;
+  right: 0%;
+  margin: 0px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Fredoka", sans-serif;
+  font-family: "Fredoka", sans-serif !important;
   background: transparent;
 }
 header {
@@ -12,6 +19,8 @@ header {
 }
 .navbar {
   background: rgb(8, 8, 36);
+  position: relative;
+  top: 0 !important;
 }
 .nav-link {
   padding: 0 !important;
@@ -60,7 +69,7 @@ ul li a:hover::before {
 }
 
 section {
-  color: white;
+  color: rgb(8, 8, 36);
   position: relative;
   box-sizing: border-box;
   transition: 0.5s;
@@ -73,7 +82,7 @@ h1 {
 }
 #Home {
   padding-top: 300px !important;
-  background: rgb(65, 65, 65);
+  background: white;
   height: 700px;
   display: inline-block;
   text-align: center;
@@ -82,21 +91,63 @@ h1 {
 
 #Sobremi {
   padding-top: 100px !important;
-  background: rgb(114, 114, 114);
+  background: rgb(198, 198, 198);
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 100px;
+}
+
+.list-group {
+  margin: 50px 50px;
+}
+.list-group-item {
+  background-color: rgb(84, 84, 84) !important;
+  color: white !important;
+  overflow: auto !important;
+}
+.list-group-item:hover {
+  background: rgb(8, 8, 36) !important;
+}
+
+.title {
+  text-decoration: underline !important;
+}
+#Experiencia {
+  padding-top: 100px !important;
+  background: rgb(8, 8, 36);
   height: auto;
   display: inline-block;
   text-align: center;
   font-size: 30px;
 }
-.list-group {
-  margin: 50px 50px;
-}
-.list-group-item {
-  background-color: rgb(8, 8, 36) !important;
+.exp {
   color: white !important;
 }
-.title {
-  text-decoration: underline;
+.row {
+  padding-top: 50px !important;
+  margin: 50px 50px !important;
+  color: rgb(8, 8, 36);
+}
+.col-sm-6 {
+  padding: 5px;
+}
+#Educación {
+  padding-top: 100px !important;
+  background: white;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+}
+
+.card-img-top {
+  image-resolution: auto;
+}
+#edu:hover {
+  background: rgb(8, 8, 36) !important;
+  color: white;
 }
 
 /*.nav-link {
