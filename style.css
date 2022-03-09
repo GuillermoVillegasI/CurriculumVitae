@@ -102,13 +102,9 @@ h1 {
 .list-group {
   margin: 50px 50px;
 }
-.list-group-item {
-  background-color: rgb(84, 84, 84) !important;
-  color: white !important;
-  overflow: auto !important;
-}
-.list-group-item:hover {
-  background: rgb(8, 8, 36) !important;
+#info:hover {
+  background: rgb(8, 8, 36);
+  color: white;
 }
 
 .title {
@@ -133,6 +129,15 @@ h1 {
 .col-sm-6 {
   padding: 5px;
 }
+.list-group-flush {
+  border: 6px solid rgb(8, 8, 36) !important;
+  border-radius: 4px !important;
+  background: white(8, 8, 36);
+  border-top: 6px solid rgb(8, 8, 36) !important;
+  color: rgb(8, 8, 36) !important;
+  overflow: auto;
+}
+
 #Educación {
   padding-top: 100px !important;
   background: white;
@@ -141,6 +146,10 @@ h1 {
   text-align: center;
   font-size: 30px;
 }
+.card-body:hover {
+  background: rgb(8, 8, 36);
+  color: white;
+}
 
 .card-img-top {
   image-resolution: auto;
@@ -148,6 +157,20 @@ h1 {
 #edu:hover {
   background: rgb(8, 8, 36) !important;
   color: white;
+}
+#exp_ {
+  font-size: 30px !important;
+  border: 4px solid rgb(8, 8, 36);
+  border-radius: 4px;
+}
+#edu {
+  font-size: 20px;
+  border-top: 4px solid rgb(8, 8, 36);
+  border-bottom: 4px solid rgb(8, 8, 36);
+  border-left: 4px solid rgb(8, 8, 36);
+}
+.card-group {
+  padding-top: 50px !important;
 }
 
 /*.nav-link {
