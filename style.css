@@ -90,13 +90,13 @@ h1 {
 }
 
 #Sobremi {
-  padding-top: 100px !important;
-  background: rgb(198, 198, 198);
+  padding-top: 500px !important;
   height: auto;
   display: inline-block;
   text-align: center;
   font-size: 30px;
   padding-bottom: 100px;
+  background: white !important;
 }
 
 .list-group {
@@ -105,6 +105,9 @@ h1 {
 #info:hover {
   background: rgb(8, 8, 36);
   color: white;
+}
+#info {
+  overflow: auto;
 }
 
 .title {
@@ -158,10 +161,14 @@ h1 {
   background: rgb(8, 8, 36) !important;
   color: white;
 }
+#exp {
+  margin: 0;
+}
 #exp_ {
-  font-size: 30px !important;
+  font-size: 20px !important;
   border: 4px solid rgb(8, 8, 36);
   border-radius: 4px;
+  position: relative;
 }
 #edu {
   font-size: 20px;
