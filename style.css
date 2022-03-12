@@ -80,11 +80,19 @@ h1 {
 }
 #Home {
   padding-top: 300px !important;
-  background: rgb(223, 223, 223);
-  height: 700px;
+  height: 900px;
   display: inline-block;
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
+  color: white;
+  background: url(img/fondo2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.name {
+  font-size: 80px !important;
 }
 
 #Sobremi {
