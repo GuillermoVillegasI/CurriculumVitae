@@ -236,6 +236,10 @@ h7 {
   width: 100px;
   height: 100px;
 }
+#iconb {
+  width: 80px;
+  height: 80px;
+}
 
 /*.nav-link {
   font-weight: 900 !important;
