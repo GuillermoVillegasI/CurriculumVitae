@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  background-color: rgb(38, 0, 0); /* &nbsp */
+  background-color: rgb(15, 15, 77); /* &nbsp */
   position: relative !important;
   right: 0%;
   margin: 0px;
@@ -18,7 +18,7 @@ header {
   align-items: center;
 }
 .navbar {
-  background: rgb(38, 0, 0);
+  background: rgb(15, 15, 77);
   position: relative;
   top: 0 !important;
 }
@@ -67,7 +67,7 @@ ul li a:hover::before {
 }
 
 section {
-  color: rgb(38, 0, 0);
+  color: rgb(15, 15, 77);
   position: relative;
   box-sizing: border-box;
   transition: 0.5s;
@@ -77,6 +77,7 @@ section {
 
 h1 {
   font-size: 60px !important;
+  text-decoration: solid !important;
 }
 #Home {
   padding-top: 200px !important;
@@ -109,12 +110,12 @@ h1 {
   margin: 50px 50px;
 }
 #info:hover {
-  background: rgb(38, 0, 0);
+  background: rgb(15, 15, 77);
   color: white;
 }
 #info {
   overflow: auto;
-  color: rgb(38, 0, 0);
+  color: rgb(15, 15, 77);
 }
 
 .title {
@@ -122,7 +123,7 @@ h1 {
 }
 #Experiencia {
   padding-top: 100px !important;
-  background: rgb(38, 0, 0);
+  background: rgb(15, 15, 77);
   height: auto;
   display: inline-block;
   text-align: center;
@@ -135,22 +136,22 @@ h1 {
 .row {
   padding-top: 50px !important;
   margin: 50px 50px !important;
-  color: rgb(38, 0, 0);
+  color: rgb(15, 15, 77);
 }
 .col-sm-6 {
   padding: 5px;
 }
 .list-group-flush {
-  border: 6px solid rgb(38, 0, 0) !important;
+  border: 6px solid rgb(15, 15, 77) !important;
   border-radius: 4px !important;
   background: white(8, 8, 36);
-  border-top: 6px solid rgb(38, 0, 0) !important;
-  color: rgb(38, 0, 0) !important;
+  border-top: 6px solid rgb(15, 15, 77) !important;
+  color: rgb(15, 15, 77) !important;
   overflow: auto;
 }
 
 .card-body:hover {
-  background: rgb(38, 0, 0);
+  background: rgb(15, 15, 77);
   color: white;
 }
 
@@ -163,10 +164,10 @@ h1 {
 }
 #exp_ {
   font-size: 20px !important;
-  border: 4px solid rgb(38, 0, 0);
+  border: 4px solid rgb(15, 15, 77);
   border-radius: 4px;
   position: relative;
-  color: rgb(38, 0, 0);
+  color: rgb(15, 15, 77);
 }
 #Educación {
   padding-top: 100px !important;
@@ -180,7 +181,7 @@ h1 {
   margin: auto !important;
 }
 .h-100 {
-  border: 4px solid rgb(38, 0, 0) !important;
+  border: 4px solid rgb(15, 15, 77) !important;
   display: flex;
   align-content: center;
   max-width: 500px;
@@ -194,27 +195,27 @@ h7 {
   text-decoration: underline;
 }
 #bodyedu {
-  background: rgb(38, 0, 0);
+  background: rgb(15, 15, 77);
   color: white;
 }
 #bodyedu:hover {
   background: white;
-  color: rgb(38, 0, 0);
+  color: rgb(15, 15, 77);
 }
 
 .btn {
   background: white !important;
-  border-color: rgb(38, 0, 0) !important;
+  border-color: rgb(15, 15, 77) !important;
   text-decoration: none !important;
 }
 .btn:hover {
-  background: rgb(38, 0, 0) !important;
+  background: rgb(15, 15, 77) !important;
   color: white !important;
   text-decoration: none !important;
   border-color: white !important;
 }
 .prog {
-  color: rgb(38, 0, 0);
+  color: rgb(15, 15, 77);
   text-decoration: none;
 }
 .prog:hover {
@@ -232,13 +233,13 @@ h7 {
 }
 .progress {
   height: 40px !important;
-  border: 3px solid rgb(38, 0, 0);
+  border: 3px solid rgb(15, 15, 77);
   border-radius: 20px !important;
   margin: 20px;
 }
 
 .progress-bar {
-  background-color: rgb(38, 0, 0) !important;
+  background-color: rgb(15, 15, 77) !important;
 }
 #icon {
   width: 100px;
@@ -247,6 +248,24 @@ h7 {
 #iconb {
   width: 80px;
   height: 80px;
+}
+#Contacto {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background: rgb(72, 72, 147);
+}
+.contact {
+  font-size: 30px;
+  font-weight: 600;
+}
+.iconcon {
+  width: 100px;
+  height: 100px;
+}
+#iconlinke:hover {
+  border: 3px solid black;
+  border-radius: 20px;
 }
 
 /*.nav-link {
